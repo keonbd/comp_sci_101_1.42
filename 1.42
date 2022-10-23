@@ -1,0 +1,8 @@
+''' Type your code here. '''
+import math
+car_mile = float(input())
+gas_price = float(input())
+travel_20 = (gas_price * 20) / car_mile
+travel_75 = (gas_price * 75) / car_mile
+travel_500 = (gas_price * 500) / car_mile
+print(f'{travel_20:.2f} {travel_75:.2f} {travel_500:.2f}')
